@@ -1,0 +1,23 @@
+h1,h2,h3,h4,h4,span,button,input,div,textarea,.inputt,.inputt,#submit{
+    font-family: 'Montserrat',sans-serif;
+}
+
+
+.fade-enter{
+    opacity: 0.01;
+}
+
+.fade-enter-active{
+    opacity: 1;
+    transition: opacity 1000ms ease-in;
+
+}
+
+.fade-exit{
+    opacity: 1;
+}
+
+.fade-exit-active{
+    opacity: 0.01;
+    transition: opacity 1000ms ease-in;
+}

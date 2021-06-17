@@ -1,0 +1,132 @@
+.mane{
+    margin-top: 120px;
+    height: 100%;
+    width: 100%;
+}
+
+.cont{
+  align-items:center;
+    justify-content: center center;
+    margin:  0px auto;
+    padding: 10px;
+}
+.submit-btn{
+    height: 3em;
+    width: 80px;
+    color: white;
+    background-color: rgb(192, 68, 59);
+    border: 1px solid rgb(177, 59, 59);
+    border-radius: 5px;
+}
+  
+  * {
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+
+    padding: 0;
+  }
+  
+  #main-searching-container {
+    display: grid;
+  }
+  
+  #main-title {
+    font-weight: normal;
+    line-height: 1.3;
+    font-size: 3rem;
+
+    
+  }
+  
+  #stackoverflow-logo {
+    /* position: relative; */
+
+    right: 85px;
+  }
+  
+  #stackoverflow-search-bar {
+    bottom: 100px;
+    width: 690px;
+    height: 70px;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    font-size: 1.2em; 
+  }
+  
+  input:focus {
+    outline: none;
+  }
+  
+  #main-title-container {
+    display: flex;
+    padding: 0px auto 10px auto;
+    justify-content: center;
+  }
+  
+  #answers-container {
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+  }
+  
+  #Load-More {
+    position: fixed;
+    bottom: 5px;
+    margin-top: 10px;
+    left: 12%;
+  
+  }
+  
+  .load-more-button {
+    background: rgba(210, 206, 206, 0.9);
+    border: 5px solid #D2CECE;
+    box-sizing: border-box;
+    border-radius: 15px;
+    width: 93px;
+    height: 38px;
+  }
+  
+  #search-results {
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 35px;
+    padding: 10px;
+  }
+  
+  
+  a {
+    color: #0075FF;
+    margin: 20px;
+    word-wrap: break-word;
+  }
+  
+  
+  @media only screen and (max-width: 870px) {
+    #main-title {
+      font-size: 2rem;
+    }
+
+    #stackoverflow-search-bar {
+      width: 500px;
+    }
+  
+    #answers-container {
+      left: 20%;
+    }
+  }
+  
+  @media only screen and (max-width: 625px) {
+    #main-title {
+      font-size: 1.6rem;
+      right: 100px;
+    }
+    #stackoverflow-search-bar {
+      width: 400px;
+    }
+    #stackoverflow-logo {
+      display: none;
+    }
+  }

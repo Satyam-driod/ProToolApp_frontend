@@ -1,0 +1,33 @@
+.main{
+    position:relative;
+   justify-content: center center;
+    width: 90%;
+    margin:0px  auto;
+    margin-top: 100px;
+
+
+}
+.card{
+    justify-content:center;
+    padding:20px;
+    height: 12rem;
+     border-radius:'50px';
+     background-color:transparent;
+     transition:'450ms';
+     margin: 25px;
+    
+}
+.card:hover{
+    border-radius:'50px';
+    background-color: white;
+    transform: scale(0.8);
+   
+}
+.tool-icon{
+    padding:20px;
+    justify-content: right;
+}
+
+.text{
+    justify-content: center;
+}

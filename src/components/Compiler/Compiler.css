@@ -1,0 +1,52 @@
+.compiler{
+    /* background-color: white; */
+    margin: 80px 20px 20px 20px;
+    border-radius: 25px;
+    display: flex;
+    min-width:700px;
+
+}
+
+.coloum{
+    width: 50%;
+    margin: 0px;
+}
+language {
+    display: flex;
+  }
+  .heading {
+    font-size: 20px;
+  }
+  #source {
+    width: 100% !important;
+    background: rgb(32, 32, 32);
+    color: white;
+    height: 100%;
+    resize: none;
+    overflow-x: scroll;
+    outline: none;
+    font-size: 1rem;
+    
+    margin-left: 0;
+  }
+  #input {
+    background: white;
+    width: 100%;
+    height: 17vh;
+    resize: none;
+    font-size: 17px;
+    color: black;
+    border: 2px solid lightgray;
+    box-shadow:1px 1px 2px  rgb(168, 167, 167);
+  }
+  #output {
+    width: 80%;
+    height: 150px;
+    font-size: 18px;
+    right: 0;
+    resize: none;
+    border: 1px solid lightgray;
+  }
+  .language {
+    width: 150px;
+  }

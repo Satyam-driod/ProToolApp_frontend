@@ -1,0 +1,28 @@
+.wrapper{
+  justify-content: center center;
+  align-items: center;
+  height: 500px;
+  margin: 0px auto;
+  width: 90%;
+  max-width: 600px;
+  margin-top: 80px;
+  background-color: white;
+  border-radius: 45px;
+  box-sizing: border-box;
+  box-shadow: 2px 13px 20px 8px rgba(196, 65, 130, 0.815) rgba(64, 192, 186, 0.815);
+}
+
+
+.calc-wrapper{
+  width:90%;
+  margin:5px auto;
+  height: 475px;
+  padding: 5px;
+  background-color: rgb(140, 60, 156);
+  border-radius: 25px;
+}
+
+.rrow{
+  width: 100%;
+  display: flex;
+}

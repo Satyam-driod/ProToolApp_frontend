@@ -1,0 +1,36 @@
+#board{
+    width: 90%;
+    margin: 0px auto;
+	margin-top: 50px;
+    background-color: white;
+    height: 90%;
+    border-radius: 20px;
+	overflow: hidden;
+	box-sizing: border-box;
+	padding: 5px;
+}
+	canvas {
+	border-radius: 20px;
+	}
+	
+	.button {
+	color: black;
+	background: white;
+	border: 2px solid black;
+	}
+	
+	.button:hover {
+	background-color: #d9d9d9;
+	border: 2px solid black;
+	color: black;
+	}
+	
+	#drawing-tools {
+	margin: 0px auto;
+	border-bottom: 1px solid lightslategrey;
+    
+	}
+	.color{
+		height: 2.5em;
+		width: 10em;
+	}
