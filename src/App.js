@@ -66,7 +66,7 @@ import {BsGearFill, BsArrowBarRight} from 'react-icons/bs';
   }
 
   getUserDetail =async ()=>{
-    let res = await fetch(`http://127.0.0.1:8000/api/v1/user/detail/`, {
+    let res = await fetch(`${process.env.REACT_APP_API_URL}/user/detail/`, {
             method: 'GET',
             headers: {Authorization: `Token ${Cookies.get('auth_token')}`},
         });

@@ -40,6 +40,7 @@ import dotenv from 'dotenv';
         const formdata=new FormData();
         formdata.append('username',this.state.username);
         formdata.append('password',this.state.password);
+        console.log(process.env);
         let res = await fetch(`${process.env.REACT_APP_API_URL}/auth/`, {
             body: formdata,
             method: 'POST',
