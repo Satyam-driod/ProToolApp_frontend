@@ -1,6 +1,6 @@
 # ProTool, the toolbox for Programmers
 
-This is the perfect tool for any programmer! It has many features to help them in their every day life.
+This is the perfect tool for any programmer! It has many features to help them in their every day life. So why don't you come down and test it? I promise you won't lose anything!
 
 ## Features
 
